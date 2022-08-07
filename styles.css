@@ -1,0 +1,47 @@
+:root {
+    background-color: rgb(0, 21, 41);
+    color: rgb(223, 223, 223);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.right {
+    flex: 1.5 1 auto;
+    display: flex;
+    flex-direction: column
+}
+
+.left {
+    background-image: url(/linus-sandvide-5DIFvVwe6wk-unsplash.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    flex: 1;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin-top: 10%;
+    height: 10%;
+    background-color: rgb(160, 147, 147, 0.1);
+}
+
+.logo {
+    flex: 1 1 auto;
+}
+
+.logoText {
+    flex: 1;
+}
