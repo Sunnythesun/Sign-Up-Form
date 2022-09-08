@@ -100,6 +100,12 @@ input[type=text] {
     border: 1px solid rgb(181, 186, 192);
 }
 
+input[type=tel] {
+    background-color: rgb(160, 147, 147, 0.1);
+    color: rgb(181, 186, 192);
+    border: 1px solid rgb(181, 186, 192);
+}
+
 input[type=email] {
     background-color: rgb(160, 147, 147, 0.1);
     color: rgb(181, 186, 192);
