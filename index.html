@@ -6,21 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Caveat&display=swap" rel="stylesheet">
     <title>Sign Up Form</title>
 </head>
 
 <body>
-    <div class="flex-container" style="border: 2px solid red">
-        <div class="left" style="border: 5px solid green">
+    <div class="flex-container">
+        <div class="left">
             <div class="banner">
-                <h1 class="logoText">Title Title</h1>
+                <h1 class="logoText">Catacomb</h1>
                 <img src="/Cave Logo.png" alt="Orange Cave logo" class="logo">
             </div>
         </div>
 
-        <div class="right" style="border: 5px solid white">
+        <div class="right">
             <div class="topRight">
-                <p>This is not a real online service! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+                <p><span class="orangeBold">This is not a real online service!</span> Lorem, ipsum dolor sit amet
+                    consectetur
+                    adipisicing
+                    elit. Eligendi
                     officia debitis repellendus explicabo eveniet, non autem asperiores odit, at, dolorum amet!
                     Necessitatibus odit molestiae esse sit sed quod quos fugiat!</p>
                 <p>Sign up now to get started. </p>
@@ -29,10 +35,9 @@
 
             <div class="middleRight">
 
+                <p><span class="orangeBold">Let's do this!</span></p>
+
                 <form class="form">
-                    <p class="formHeading">
-                        Let's do this!
-                    </p>
 
                     <div class="formInput" style="display: inline-block">
                         <label for="firstName" style="display: block;">First Name:</label>
@@ -63,11 +68,15 @@
                         <label for="confirmPassword" style="display: block;">Confirm Password:</label>
                         <input type="password" id="confirmPassword" style="width: 100%" required>
                     </div>
+
+                    <div class="submitButton">
+                        <button type="submit">Create Account</button>
+                    </div>
                 </form>
             </div>
 
             <div class="bottomRight">
-                <p>Already have an account? Log in.</p>
+                <p>Already have an account? <span class="orangeBold"><a href="/index.html">Log in.</a></span></p>
             </div>
         </div>
     </div>
